@@ -7,8 +7,11 @@
 As a part of HARLEM - Human Recognition Action Recognition project. This is an automated zooming system using YOLOv5 for real-time video, which detects and tracks specified objects to adjust the view dynamically. Key features include Region of Interest (RoI) Centralization to keep objects centered, adaptive zoom based on object size and position, and smooth transitions to avoid abrupt changes.
 
 
-![Untitled design (1)](https://github.com/user-attachments/assets/0c9eebed-b602-41db-b623-faf726529fb2)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/0c9eebed-b602-41db-b623-faf726529fb2" alt="Untitled design (1)">
+</p>
 <p align="center">Fig. Before & After Zooming process.</p>
+
 
 
 The auto-zooming mechanism developed in this study functions by dynamically adjusting the view based on the objects detected by the YOLOv5 model in real-time video streams. The process begins with the detection of an object of interest, such as a particular class or region specified by the user. Once the YOLOv5 model identifies and localizes the object by predicting a bounding box around it, the auto-zooming system extracts the bounding box coordinates to initiate zooming adjustments.
