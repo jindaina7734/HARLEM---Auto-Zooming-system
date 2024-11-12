@@ -10,6 +10,12 @@ As a part of HARLEM - Human Recognition Action Recognition project. This is an a
 https://github.com/user-attachments/assets/028ab165-2c38-423b-a659-2280fa249b8a
 <p align="center">Video. Example of the original data.</p>
 
+
+
+https://github.com/user-attachments/assets/7191e0d2-1b3d-466e-a376-c56e5f85c77d
+<p align="center">Video. Example of the result after zoom.</p>
+
+
 The auto-zooming mechanism developed in this study functions by dynamically adjusting the view based on the objects detected by the YOLOv5 model in real-time video streams. The process begins with the detection of an object of interest, such as a particular class or region specified by the user. Once the YOLOv5 model identifies and localizes the object by predicting a bounding box around it, the auto-zooming system extracts the bounding box coordinates to initiate zooming adjustments.
 
 The central focus of the auto-zooming mechanism is the Region of Interest (RoI) Centralization. This process ensures that the detected object is not only located in the frame but also positioned at the optimal focal point for clear visibility. The system automatically repositions the camera or viewport to bring the object to the center of the frame, allowing it to dominate the visual field. This re-centering is especially critical when the detected object is near the frame’s periphery, ensuring that the object is adequately captured in the visual output.
