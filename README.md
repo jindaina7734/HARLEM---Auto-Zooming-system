@@ -1,14 +1,19 @@
 -----
 # HARLEM - Automated Zooming & Tracking System
 
-\<p align="center"\>\<i\>Fig. Automated Zooming System using YOLOv5.\</i\>\</p\>
+![Auto zooming (3)](https://github.com/user-attachments/assets/c8d8cf8c-c26d-4bcd-889b-9363df311026)
+
+<p align="center">Fig. Automated Zooming System using YOLOv5.</p>
 
 As a core component of the **HARLEM (Human Action Recognition)** project, this automated zooming and tracking system utilizes YOLOv5 to dynamically process real-time video streams. It is designed to detect, track, and centralize specific human subjects, cropping the original footage into a standardized, focus-driven resolution (`480x800`).
 
-\<p align="center"\>
-\<img src="[https://github.com/user-attachments/assets/0c9eebed-b602-41db-b623-faf726529fb2](https://github.com/user-attachments/assets/0c9eebed-b602-41db-b623-faf726529fb2)" alt="Before & After Zooming process"\>
-\</p\>
-\<p align="center"\>\<i\>Fig. Before & After Zooming process.\</i\>\</p\>
+<p align="center">
+
+  <img src="https://github.com/user-attachments/assets/0c9eebed-b602-41db-b623-faf726529fb2" alt="Untitled design (1)">
+
+</p>
+
+<p align="center">Fig. Before & After Zooming process.</p>
 
 ## ⚙️ Core Mechanism: The 2-Pass Pipeline
 
